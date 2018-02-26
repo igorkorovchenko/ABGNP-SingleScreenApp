@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.android.narisoft.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/branding"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_big"
+        app:srcCompat="@drawable/ic_logo"
+        android:contentDescription="@string/iv_cd_logo" />
+
+    <LinearLayout
+        android:id="@+id/branding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_text_company_name"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_header" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_text_site"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_big" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_text_location"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_big_text"
+            android:text="@string/tv_text_summary"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size_big" />
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/branding"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_element"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/about_us"
+            style="@style/button"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:text="@string/btn_text_about_us"
+            android:textSize="@dimen/text_size_big" />
+
+        <Button
+            android:id="@+id/portfolio"
+            style="@style/button"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:text="@string/btn_text_protfolio"
+            android:textSize="@dimen/text_size_big" />
+
+        <Button
+            android:id="@+id/call_us"
+            style="@style/button"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:text="@string/btn_text_call_us"
+            android:textSize="@dimen/text_size_big" />
+
+        <Button
+            android:id="@+id/order"
+            style="@style/button"
+            android:layout_width="@dimen/width_button"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_button"
+            android:text="@string/btn_text_order"
+            android:textSize="@dimen/text_size_big" />
+    </GridLayout>
+
+
+</RelativeLayout>

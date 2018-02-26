@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#707070</color>
+    <color name="main_grey">#707070</color>
+    <color name="background_color">#FFF</color>
+    <color name="backgroud_disabled">#D8D8D8</color>
+    <color name="stroke_focused">#000</color>
+</resources>

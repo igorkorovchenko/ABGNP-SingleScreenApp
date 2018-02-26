@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_header">35sp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="width_button">140dp</dimen>
+    <dimen name="margin_button">10dp</dimen>
+    <dimen name="margin_element">15dp</dimen>
+    <dimen name="padding_big_text">15dp</dimen>
+    <dimen name="margin_big">30dp</dimen>
+    <dimen name="padding_button">10dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="corner_radius">36dp</dimen>
+</resources>

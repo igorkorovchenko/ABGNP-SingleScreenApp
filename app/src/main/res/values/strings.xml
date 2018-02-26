@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Narisoft</string>
+    <string name="btn_text_about_us">About Us</string>
+    <string name="btn_text_protfolio">Protfolio</string>
+    <string name="btn_text_call_us">Contact us</string>
+    <string name="btn_text_order">Order…</string>
+    <string name="tv_text_summary">Full-service company placing high emphasis on every stages of the designing and development of mobile and web apps.</string>
+    <string name="tv_text_location">Voronezh, Russia</string>
+    <string name="tv_text_site">http://narisoft.com</string>
+    <string name="tv_text_company_name">Narisoft, LLC</string>
+    <string name="iv_cd_logo">Logo of the company</string>
+</resources>
